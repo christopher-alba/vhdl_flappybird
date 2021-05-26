@@ -41,8 +41,6 @@ begin
 				else 
 					ball_y_pos <= ball_y_pos - 70;
 				end if;
-			--elsif (('0' & ball_y_pos >= CONV_STD_LOGIC_VECTOR(479,10) - size)) then	
-				--null;
 			else 
 				ball_y_pos <= ball_y_pos +  gravity;
 		end if;
